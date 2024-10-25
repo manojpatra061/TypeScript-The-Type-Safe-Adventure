@@ -8,14 +8,15 @@ You can use Vite for this, but I chose not to because I believe that understandi
 
 ## Install
 
-To install TypeScript on your project run this command on terminal - 
+To install TypeScript on your project run this command on terminal -
 
 ```sh
   npm install typescript --save-dev
 ```
+
 On your `package.json` file it should show you TS with its version
 
-OR, 
+OR,
 
 you can run the command on ternimal to check
 
@@ -33,14 +34,13 @@ This file tells TypeScript Compiler (TSC) how to compile your ts code.
 ```json
 {
   "compilerOptions": {
-    "lib": ["ES2020", "DOM", "DOM.Iterable"],
-    "target": "ES2020",
+    "lib": ["DOM", "DOM.Iterable"],
+    "target": "ES6",
     "useDefineForClassFields": true,
-    "module": "ESNext",
+    "module": "CommonJS",
     "skipLibCheck": true,
 
     /* Bundler mode */
-    "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
@@ -52,8 +52,7 @@ This file tells TypeScript Compiler (TSC) how to compile your ts code.
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
-  },
-  "exclude": ["node_modules"]
+  }
 }
 ```
 
@@ -75,5 +74,6 @@ run the following command in your terminal to create a `tsconfig.json` file with
 - How to run? remember the above command generates a `js` file, so `node file_name.js` (e.g, `node app.js`)
 
 ## How to play and learn with my repository (setup)
+
 - copy the code from a ts file and paste that in "app.ts" file
 - `npm run start` (which will "compile → run → show results" on terminal)
