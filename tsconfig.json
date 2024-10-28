@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "lib": ["DOM", "DOM.Iterable"],
+    "lib": ["ES6","DOM", "DOM.Iterable"],
     "target": "ES6",
     "useDefineForClassFields": true,
     "module": "CommonJS",
