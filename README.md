@@ -1,6 +1,6 @@
 "TypeScript: The Type-Safe Adventure" is a fast-paced practical approach to learning the essentials of TypeScript quickly.
 
-If you want to learn TypeScript in no time, this repo will help you learn TS faster. I recommend you go through them one by one serially. If you go through my way I bet you will have no doubt how things work in TS and will be equipped enough to learn more on your own.
+If you want to learn TypeScript in no time, this repo will help you learn TS faster. I suggest you go through them one by one serially. If you go through my way I bet you will have no doubt how things work in TS and will be equipped enough to learn more on your own.
 
 You can use my notion notes along the journey - (Link will be given here soon)
 
@@ -76,4 +76,7 @@ run the following command in your terminal to create a `tsconfig.json` file with
 ## How to play and learn with my repository (setup)
 
 - copy the code from a ts file and paste that in "app.ts" file
-- `npm run start` (which will "compile → run → show results" on terminal)
+- `npm run dev` (thanks to nodemon and ts-node packages we can run ts file directly without going through compilation process. It auto-restarts when saving.)
+
+
+## 1-17 → first-level, remainings → second-level
